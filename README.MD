@@ -4,8 +4,11 @@
 
 Follow these steps to **install** and **start** docker:<br>
 [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)<br>
-[Docker for MacOS](https://docs.docker.com/docker-for-mac/install/)
+[Docker for MacOS](https://docs.docker.com/docker-for-mac/install/)<br>
 
+If you have problem with firewall on windows, install **Docker Toolbox** instead<br>
+[Docker Toolbox for Windows](https://docs.docker.com/toolbox/toolbox_install_windows/)<br>
+[Docker Toolbox for Windows](https://docs.docker.com/toolbox/toolbox_install_mac/)
 
 ### 2. Download this repo into your computer and open Powershell(in Windows) or Terminal(in MacOS)
 
