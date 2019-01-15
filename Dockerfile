@@ -8,7 +8,7 @@ RUN curl https://cmake.org/files/v3.12/cmake-3.12.1-Linux-x86_64.sh -o /tmp/curl
       && /tmp/curl-install.sh --skip-license --prefix=/usr/bin/cmake \
       && rm /tmp/curl-install.sh
 
-RUN curl -s http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.2.tar.gz | tar xz > /dev/null
+RUN curl -s https://accellera.org/images/downloads/standards/systemc/systemc-2.3.2.tar.gz | tar xz > /dev/null
 
 ENV PATH=/usr/bin/cmake/bin:${PATH}
 ENV SYSTEMC_HOME=/systemc-2.3.2
